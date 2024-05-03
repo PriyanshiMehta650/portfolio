@@ -1,0 +1,109 @@
+/* Reset styles and global settings */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    background-color: #383838;
+    color: #fff;
+    text-align: right;
+    padding: 10px 0;
+}
+
+/* Navigation styles */
+.header-content {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Profile picture styles */
+.profile-picture {
+    width: 25%;
+    float: right;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background: #C5F1F0;
+}
+
+.profile-picture img {
+    width: 0%;
+    height: 50%;
+    object-fit: cover;
+}
+
+
+
+/* Tagline styles */
+.tagline {
+    font-size: 16px;
+    font-style: italic;
+    float: left;
+    margin-bottom: auto;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #383838;
+    padding: 50px 0;
+    margin-bottom: 10px;
+    color: white;
+    width:100%;
+}
+
+.footer h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
